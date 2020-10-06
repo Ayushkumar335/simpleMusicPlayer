@@ -86,7 +86,7 @@ body{
 .con1{
   margin:0px 2%;
   width:90% !important;
-  height:75% !important;
+  heigth:auto;
 
 }
 }
@@ -94,13 +94,13 @@ body{
 {
   .con1{
     width:50%;
-    height:75%;
+  heigth:auto;
   }
 }
 @media only screen and (min-width: 900px)
 {
 .con1{
   width:35%;
-  height:65%
+  heigth:auto;
 }
 }
