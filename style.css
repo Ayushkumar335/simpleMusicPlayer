@@ -20,7 +20,8 @@ body{
 }
 .con1{
   margin:0px 30%;
-  width:350px;
+  width:35%;
+  height:65%;
   display: grid;
   place-items:center;
   background-color:#d6e0f0 ;
@@ -80,4 +81,26 @@ body{
 .fa-play-circle{
   width:50px;
   height: 50px;
+}
+@media only screen and (max-width: 600px) {
+.con1{
+  margin:0px 2%;
+  width:90% !important;
+  height:75% !important;
+
+}
+}
+@media only screen and (min-width: 610px)
+{
+  .con1{
+    width:50%;
+    height:75%;
+  }
+}
+@media only screen and (min-width: 900px)
+{
+.con1{
+  width:35%;
+  height:65%
+}
 }
